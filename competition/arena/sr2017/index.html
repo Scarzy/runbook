@@ -1,0 +1,2824 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="https://srobo.github.io/runbook/competition/arena/sr2017/">
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.2.0">
+    
+    
+      
+        <title>SR2017 Arena Documentation - SR RunBook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.572ca0f0.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.8c900955.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#sr2017-arena-documentation" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://srobo.github.io/runbook/" title="SR RunBook" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">library_books</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                SR RunBook
+              </span>
+              <span class="md-header-nav__topic">
+                SR2017 Arena Documentation
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/srobo/runbook/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." title="Home" class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../" title="Competition" class="md-tabs__link md-tabs__link--active">
+          Competition
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../kit/" title="Kit" class="md-tabs__link">
+          Kit
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../programme/" title="Programme" class="md-tabs__link">
+          Programme
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../teams/" title="Teams" class="md-tabs__link">
+          Teams
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://srobo.github.io/runbook/" title="SR RunBook" class="md-nav__button md-logo">
+      
+        <i class="md-icon">library_books</i>
+      
+    </a>
+    SR RunBook
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/srobo/runbook/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../project-readme/" title="Project readme" class="md-nav__link">
+      Project readme
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Competition
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Competition
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Arena
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Arena
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Arena Manager" class="md-nav__link">
+      Arena Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sr2016-token-verification-instructions/" title="SR2016 Token Verification Instructions" class="md-nav__link">
+      SR2016 Token Verification Instructions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sr2016/" title="SR2016 Arena Documentation" class="md-nav__link">
+      SR2016 Arena Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sr2017-feedback/" title="SR2017 Arena Documentation Feedback" class="md-nav__link">
+      SR2017 Arena Documentation Feedback
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        SR2017 Arena Documentation
+      </label>
+    
+    <a href="./" title="SR2017 Arena Documentation" class="md-nav__link md-nav__link--active">
+      SR2017 Arena Documentation
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-competition-preparation" title="Pre-competition Preparation" class="md-nav__link">
+    Pre-competition Preparation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#libkoki-markers" title="Libkoki Markers" class="md-nav__link">
+    Libkoki Markers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arena-labels" title="Arena labels" class="md-nav__link">
+    Arena labels
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game-props" title="Game props" class="md-nav__link">
+    Game props
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#carpet" title="Carpet" class="md-nav__link">
+    Carpet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arena-walls" title="Arena walls" class="md-nav__link">
+    Arena walls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-requirements" title="Network requirements" class="md-nav__link">
+    Network requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-requirements" title="Power requirements" class="md-nav__link">
+    Power requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-requirements" title="Display requirements" class="md-nav__link">
+    Display requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#table-and-chair-requirements" title="Table and chair requirements" class="md-nav__link">
+    Table and chair requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crowd-barrier-requirements" title="Crowd barrier requirements" class="md-nav__link">
+    Crowd barrier requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staging-area-requirements" title="Staging area requirements" class="md-nav__link">
+    Staging area requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tape-order" title="Tape order" class="md-nav__link">
+    Tape order
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-day-plans" title="Set-up Day Plans" class="md-nav__link">
+    Set-up Day Plans
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arena-construction" title="Arena Construction" class="md-nav__link">
+    Arena Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stagingshepherding-area-construction" title="Staging/Shepherding Area Construction" class="md-nav__link">
+    Staging/Shepherding Area Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_1" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_1" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_1" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoringops-area-construction" title="Scoring/ops Area Construction" class="md-nav__link">
+    Scoring/ops Area Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_2" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_2" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_2" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arenanet-installation" title="Arenanet Installation" class="md-nav__link">
+    Arenanet Installation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_3" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_3" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_3" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-assembly" title="Display Assembly" class="md-nav__link">
+    Display Assembly
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_4" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_4" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_4" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sr2017-game-easy-as-abc-prop-construction" title="SR2017 Game (Easy as ABC) Prop Construction" class="md-nav__link">
+    SR2017 Game (Easy as ABC) Prop Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_5" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_5" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_5" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-day-arena-changeover" title="Final Day Arena Changeover" class="md-nav__link">
+    Final Day Arena Changeover
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools_6" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_6" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Event
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Event
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../event/" title="Competition Event Documentation" class="md-nav__link">
+      Competition Event Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../event/sr2017-event/" title="SR2017 Competition Event Details" class="md-nav__link">
+      SR2017 Competition Event Details
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Matches
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Matches
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../matches/" title="Competition Match Coordinator" class="md-nav__link">
+      Competition Match Coordinator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../matches/commentating/" title="Commentating" class="md-nav__link">
+      Commentating
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../matches/judging/" title="Judging" class="md-nav__link">
+      Judging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../matches/match-scoring/" title="Match Scoring Roles" class="md-nav__link">
+      Match Scoring Roles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../matches/shepherding/" title="Shepherding" class="md-nav__link">
+      Shepherding
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Production
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Production
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/" title="Competition Production Documentation" class="md-nav__link">
+      Competition Production Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/venue/" title="Venue Requirements" class="md-nav__link">
+      Venue Requirements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4-3" type="checkbox" id="nav-3-4-3">
+    
+    <label class="md-nav__link" for="nav-3-4-3">
+      Network
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-4-3">
+        Network
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/network/sr2016-cabling/" title="SR2016 Competition Network Cabling" class="md-nav__link">
+      SR2016 Competition Network Cabling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/network/sr2016-network/" title="SR2016 Competition Network" class="md-nav__link">
+      SR2016 Competition Network
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4-4" type="checkbox" id="nav-3-4-4">
+    
+    <label class="md-nav__link" for="nav-3-4-4">
+      Roles
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-4-4">
+        Roles
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/roles/arena-manager/" title="Arena Manager" class="md-nav__link">
+      Arena Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/roles/network-manager/" title="Network Manager" class="md-nav__link">
+      Network Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/roles/pits-manager/" title="Pits Manager" class="md-nav__link">
+      Pits Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../production/roles/venue-manager/" title="Venue Manager" class="md-nav__link">
+      Venue Manager
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5">
+    
+    <label class="md-nav__link" for="nav-3-5">
+      Team pits
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-5">
+        Team pits
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-pits/" title="Pit Manager" class="md-nav__link">
+      Pit Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-pits/sr2017/" title="SR2017 Pit Documentation" class="md-nav__link">
+      SR2017 Pit Documentation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6">
+    
+    <label class="md-nav__link" for="nav-3-6">
+      Team support
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-6">
+        Team support
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-support/" title="Competition Team Support Documentation" class="md-nav__link">
+      Competition Team Support Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-support/battery-charging/" title="Battery Charging" class="md-nav__link">
+      Battery Charging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-support/battery-shuffler/" title="Battery Shuffler" class="md-nav__link">
+      Battery Shuffler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-support/helpdesk/" title="Helpdesk" class="md-nav__link">
+      Helpdesk
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-support/kit-testing-rig/" title="Kit testing rig" class="md-nav__link">
+      Kit testing rig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../team-support/roving-helper/" title="Roving Helper" class="md-nav__link">
+      Roving Helper
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-7" type="checkbox" id="nav-3-7">
+    
+    <label class="md-nav__link" for="nav-3-7">
+      Teams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-7">
+        Teams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/" title="Competition Team Coordinator Role Documentation" class="md-nav__link">
+      Competition Team Coordinator Role Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/coordinator/" title="Competition Team Coordinator" class="md-nav__link">
+      Competition Team Coordinator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-7-3" type="checkbox" id="nav-3-7-3">
+    
+    <label class="md-nav__link" for="nav-3-7-3">
+      Process docs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-7-3">
+        Process docs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/process-docs/sr2017-orientation-and-pit-rules/" title="SR 2017 Example orientation and  pit rules" class="md-nav__link">
+      SR 2017 Example orientation and  pit rules
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-7-4" type="checkbox" id="nav-3-7-4">
+    
+    <label class="md-nav__link" for="nav-3-7-4">
+      Role descriptions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-7-4">
+        Role descriptions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/role-descriptions/arrival-desk/" title="Arrival Desk Volunteer" class="md-nav__link">
+      Arrival Desk Volunteer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/role-descriptions/crimper/" title="Crimper Volunteer" class="md-nav__link">
+      Crimper Volunteer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/role-descriptions/door-guard/" title="Door Guard Volunteer" class="md-nav__link">
+      Door Guard Volunteer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/role-descriptions/intro-briefer/" title="Introductory Briefer" class="md-nav__link">
+      Introductory Briefer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/role-descriptions/kit-return/" title="Kit Return Volunteer" class="md-nav__link">
+      Kit Return Volunteer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/role-descriptions/reception/" title="Reception Volunteer" class="md-nav__link">
+      Reception Volunteer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teams/role-descriptions/tinker/" title="Tinker Time Coordinator" class="md-nav__link">
+      Tinker Time Coordinator
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Kit
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Kit
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/" title="Kit Operations Documentation" class="md-nav__link">
+      Kit Operations Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/kit-definition/" title="Kit Definition" class="md-nav__link">
+      Kit Definition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/support/" title="Kit Support Documentation" class="md-nav__link">
+      Kit Support Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+    
+    <label class="md-nav__link" for="nav-4-4">
+      Hardware
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-4">
+        Hardware
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/hardware/" title="Hardware Production Documentation" class="md-nav__link">
+      Hardware Production Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/hardware/kit-collation/" title="Kit Collation" class="md-nav__link">
+      Kit Collation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/hardware/kit-packing/" title="Kit Packing" class="md-nav__link">
+      Kit Packing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/hardware/sr2017-kit-collation-plan/" title="SR2017 Kit Collation Plan" class="md-nav__link">
+      SR2017 Kit Collation Plan
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+    
+    <label class="md-nav__link" for="nav-4-5">
+      Software
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-5">
+        Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/software/" title="Kit Software Documentation" class="md-nav__link">
+      Kit Software Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../kit/software/legacy-server-maintainer-role/" title="Legacy Server Maintainer (LSM) Role Definition" class="md-nav__link">
+      Legacy Server Maintainer (LSM) Role Definition
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Programme
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Programme
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../programme/" title="Competition Programme Operations Documentation" class="md-nav__link">
+      Competition Programme Operations Documentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Kickstart
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Kickstart
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../programme/kickstart/review/" title="Kickstart Event Review Process" class="md-nav__link">
+      Kickstart Event Review Process
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3">
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Roles
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        Roles
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../programme/roles/game-design-coord/" title="Game Design Coordinator" class="md-nav__link">
+      Game Design Coordinator
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Teams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Teams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/" title="Teams" class="md-nav__link">
+      Teams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/after-competition/" title="After competition" class="md-nav__link">
+      After competition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/allocating-teams/" title="Allocating teams" class="md-nav__link">
+      Allocating teams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/competition-preparation/" title="Competition preparation" class="md-nav__link">
+      Competition preparation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/dropouts-and-reallocating-teams/" title="Dropouts and reallocating teams" class="md-nav__link">
+      Dropouts and reallocating teams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/initial-tasks-for-team-coordinator/" title="Initial tasks for Team Coordinator" class="md-nav__link">
+      Initial tasks for Team Coordinator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/kickstart/" title="Kickstart" class="md-nav__link">
+      Kickstart
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/kit/" title="Kit" class="md-nav__link">
+      Kit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/managing-ltcs/" title="Managing LTCs" class="md-nav__link">
+      Managing LTCs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/mentoring/" title="Mentoring" class="md-nav__link">
+      Mentoring
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../teams/tech-days/" title="Tech days" class="md-nav__link">
+      Tech days
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-competition-preparation" title="Pre-competition Preparation" class="md-nav__link">
+    Pre-competition Preparation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#libkoki-markers" title="Libkoki Markers" class="md-nav__link">
+    Libkoki Markers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arena-labels" title="Arena labels" class="md-nav__link">
+    Arena labels
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game-props" title="Game props" class="md-nav__link">
+    Game props
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#carpet" title="Carpet" class="md-nav__link">
+    Carpet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arena-walls" title="Arena walls" class="md-nav__link">
+    Arena walls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-requirements" title="Network requirements" class="md-nav__link">
+    Network requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-requirements" title="Power requirements" class="md-nav__link">
+    Power requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-requirements" title="Display requirements" class="md-nav__link">
+    Display requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#table-and-chair-requirements" title="Table and chair requirements" class="md-nav__link">
+    Table and chair requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crowd-barrier-requirements" title="Crowd barrier requirements" class="md-nav__link">
+    Crowd barrier requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staging-area-requirements" title="Staging area requirements" class="md-nav__link">
+    Staging area requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tape-order" title="Tape order" class="md-nav__link">
+    Tape order
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-day-plans" title="Set-up Day Plans" class="md-nav__link">
+    Set-up Day Plans
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arena-construction" title="Arena Construction" class="md-nav__link">
+    Arena Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stagingshepherding-area-construction" title="Staging/Shepherding Area Construction" class="md-nav__link">
+    Staging/Shepherding Area Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_1" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_1" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_1" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoringops-area-construction" title="Scoring/ops Area Construction" class="md-nav__link">
+    Scoring/ops Area Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_2" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_2" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_2" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arenanet-installation" title="Arenanet Installation" class="md-nav__link">
+    Arenanet Installation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_3" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_3" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_3" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-assembly" title="Display Assembly" class="md-nav__link">
+    Display Assembly
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_4" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_4" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_4" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sr2017-game-easy-as-abc-prop-construction" title="SR2017 Game (Easy as ABC) Prop Construction" class="md-nav__link">
+    SR2017 Game (Easy as ABC) Prop Construction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#materials_5" title="Materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools_5" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_5" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-day-arena-changeover" title="Final Day Arena Changeover" class="md-nav__link">
+    Final Day Arena Changeover
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools_6" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure_6" title="Procedure" class="md-nav__link">
+    Procedure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/srobo/runbook/blob/master/docs/competition/arena/sr2017.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="sr2017-arena-documentation">SR2017 Arena Documentation<a class="headerlink" href="#sr2017-arena-documentation" title="Permanent link">&para;</a></h1>
+<h2 id="pre-competition-preparation">Pre-competition Preparation<a class="headerlink" href="#pre-competition-preparation" title="Permanent link">&para;</a></h2>
+<p>There are two arenas in SR2017.</p>
+<h3 id="libkoki-markers">Libkoki Markers<a class="headerlink" href="#libkoki-markers" title="Permanent link">&para;</a></h3>
+<p>The arena marker requirements are identical to SR2016. The arena markers from SR2016 will be reused for SR2017. As a note for future purchases, it would be useful if the arena markers had a v-notch in the centre of their bottom edge to aid with alignment during arena construction.</p>
+<p>Requirements (all ranges inclusive):</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Size</th>
+<th>Arena A</th>
+<th>Arena B</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arena</td>
+<td>250mm</td>
+<td>100-127</td>
+<td>150-177</td>
+<td>We have all of the markers used in SR2016, but some are quite scuffed. We got two whole sets printed in SR2016, so will use the spare set as the primary markers in SR2017 with the SR2016 set as spares.</td>
+</tr>
+<tr>
+<td>Robot</td>
+<td>100mm</td>
+<td>128-131</td>
+<td>178-181</td>
+<td>We have badges from SR2016, so don't need new markers</td>
+</tr>
+<tr>
+<td>Token A</td>
+<td>200mm</td>
+<td>132-135</td>
+<td>182-185</td>
+<td></td>
+</tr>
+<tr>
+<td>Token B</td>
+<td>200mm</td>
+<td>136-139</td>
+<td>186-189</td>
+<td></td>
+</tr>
+<tr>
+<td>Token C</td>
+<td>200mm</td>
+<td>140</td>
+<td>190</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The Arena markers have been packaged up into 'A primary', 'B primary', 'A spare' and 'B spare' packs ready for deployment on the set-up day.</p>
+<p>The token markers for arena A and B can be found in <a href="https://github.com/srobo/game-markers/tree/master/SR2017/comp">game-markers.git</a> (A-TOKEN* and B-TOKEN*). These have been combined into a <a href="https://github.com/srobo/arena/blob/master/comp17/markers/sr2017_token_240x240.pdf">single PDF in arena.git</a> using the command <code>pdfjoin -o sr2017_token_240x240.pdf /path/to/game-markers.git/SR2017/comp/*TOKEN*</code>. This PDF contains a single sides-worth of markers, meaning that 12 copies are required to allow us to construct both a primary and spare set of tokens for each arena. The markers are to be ordered from Stormpress on 270gsm synthetic media (as specified in the README.txt file in arena.git).</p>
+<p>Before requesting a quote from Stormpress, I got someone else to sanity check the PDFs.</p>
+<h3 id="arena-labels">Arena labels<a class="headerlink" href="#arena-labels" title="Permanent link">&para;</a></h3>
+<p>Each arena has 'A' and 'B' labels applied to the outside of the walls. We need 16 of each label (4 per wall). All of the 'A' and 'B' labels from SR2016 are suitable for use in SR2017 and have been packaged up ready for deployment on the set-up day.</p>
+<h3 id="game-props">Game props<a class="headerlink" href="#game-props" title="Permanent link">&para;</a></h3>
+<p>The SR2017 game has 9 'token' props per arena. These tokens consist of cardboard boxes with libkoki markers attached to each face. All markers on a single token are the same, but each token has a different marker number. There are 4 tokens with marker numbers in the 'A' range, 4 tokens with marker numbers in the 'B' range and a single token with a 'C' marker. Each arena has two full sets of tokens, a primary and a spare set.</p>
+<p>The rules specify the size of each token as a cube with a side length of 245±10mm. This size was chosen to match the nominal dimensions of a double wall 9 inch cardboard box.</p>
+<p>4 packs of 10 of <a href="http://www.ukpackaging.com/cardboard-boxes/standard-cardboard-boxes/double-wall-cardboard-box-230x230x230mm-9x9x9">UKPackaging ref 15759</a> are to be ordered (36 boxes required).</p>
+<p>The tokens are not associated with corners/robots in any way this year, so their colouring should not imply any association. However, the tokens needs to be easily identifiable as 'A', 'B' and 'C' for linesmen and spectators. For this reason the tokens will be red (A tokens, Apple), yellow (non-fluorescent) (B tokens, Banana) and white/brown combo (C tokens, Coconut). Each token will take 3.6m of 48mm wide tape to cover all 12 edges.</p>
+<p>There are 16 A and 16 B tokens, requiring ~58m of red and ~58m of yellow tape respectively. There are 4 C tokens, requiring ~7.5m of white tape and ~7.5m of brown tape. All tape from <a href="http://www.gaffatape.com/industrial-grade-heavy-duct-gaffer-cloth-tape/Default.aspx">Gaffertape.com Industrial Grade/Cloth Tape</a></p>
+<h3 id="carpet">Carpet<a class="headerlink" href="#carpet" title="Permanent link">&para;</a></h3>
+<p>For the last few years we have used 'budget cord carpet' either in blue or red (depending on availability) from <a href="http://www.moreforyourfloor.co.uk/blue-budget-cord-carpet.html">More For Your Floor</a>. Previously we have ordered 2x 18x4m lengths and 1x 9x4m length, however we cut the 18m lengths in half. Since they charge per square metre, we can just order 5x 9x4m lengths for the same price and save our time cutting it up.</p>
+<h3 id="arena-walls">Arena walls<a class="headerlink" href="#arena-walls" title="Permanent link">&para;</a></h3>
+<p>The arena walls are 300mm tall made out of 9mm thick waterproof MDF in 1.144m sections. There are 7 sections per side of the arena, giving an internal size of 7.999m (7x1.144 - 0.009). Each section has two feet that stick out on the outside of the arena. These feet have water-filled 5l plastic jerry cans placed on them for ballast.</p>
+<p>The wall sections are held together with 3.5x25mm screws (2 screws per section for a total of 56 screws).</p>
+<p>We already own all of the wall sections, all of the screws and all of the jerry cans from previous years.</p>
+<h3 id="network-requirements">Network requirements<a class="headerlink" href="#network-requirements" title="Permanent link">&para;</a></h3>
+<p>There is a private LAN, the 'arena network', that connects all of the computers around the arenas, the shepherding area and the score entry area. This LAN requires points at:</p>
+<ul>
+<li>Each corner of each arena (8 off) requires two ethernet points that can reach up to 2m in the air from the floor.</li>
+<li>The shepherd area requires two ethernet points</li>
+<li>The score entry area requires two ethernet points (provide 4)</li>
+<li>The downstairs 'outside' display requires one ethernet point</li>
+<li>The upstairs 'outside' display requires one ethernet point. <strong>This will be connected to the Newbury network, it will only have internet access and not access to the rest of the arena network.</strong></li>
+</ul>
+<p>This LAN connects to the Newbury network to get internet access. The connection to the Newbury network is via a NAT router. The NAT router also needs to provide DHCP leases with fixed hostnames (and provide DNS lookup of these hostnames) for the following MAC addresses:</p>
+<div class="codehilite"><pre><span></span>b8:27:eb:89:e9:e0 pi-outside-0
+b8:27:eb:51:84:16 pi-shepherding-1
+b8:27:eb:e9:ec:98 pi-outside-2
+b8:27:eb:2e:84:e4 pi-arena-A0
+b8:27:eb:ec:0e:80 pi-arena-A1
+b8:27:eb:e4:7a:ef pi-arena-A2
+b8:27:eb:ed:f2:77 pi-arena-A3
+b8:27:eb:be:ce:73 pi-arena-B0
+b8:27:eb:b9:2b:29 pi-arena-B1
+b8:27:eb:3c:0b:c5 pi-arena-B2
+b8:27:eb:eb:9a:17 pi-arena-B3
+b8:27:eb:69:f2:04 pi-staging-11
+[unknown] compbox-2017
+</pre></div>
+
+<p>The NAT router is a GLi <a href="https://www.gl-inet.com/ar300m/">GL-AR300M</a> with the following changes made to the factory default configuration:</p>
+<ul>
+<li>Hostname set to <code>littleblackrouter</code></li>
+<li>SSID set to <code>sr-arena-net</code></li>
+<li>WPA2 password changed (password written on the device)</li>
+<li>Web interface/root password changed (password written on the device)</li>
+<li>Static leases added for the above listed MAC address/hostnames</li>
+</ul>
+<h3 id="power-requirements">Power requirements<a class="headerlink" href="#power-requirements" title="Permanent link">&para;</a></h3>
+<p>Power is required in the following locations:</p>
+<ul>
+<li>Each arena corner (8 off): 4 (from RTSS) + 4 (ITR 4-way plugged into 1 of RTSS) sockets</li>
+<li>Shepherding area: 7 sockets</li>
+<li>Score entry area: 10 sockets</li>
+<li>Downstairs 'outside' display: 4 sockets</li>
+<li>Upstairs 'outside' display: 4 sockets</li>
+</ul>
+<h3 id="display-requirements">Display requirements<a class="headerlink" href="#display-requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Each arena corner (8 off) requires one 24" screen on a unicol stand</li>
+<li>The shepherding area requires two 24" screens on desk stands</li>
+<li>The 'outside' displays require two 32" screens on unicol stands (one for downstairs and one for upstairs)</li>
+</ul>
+<h3 id="table-and-chair-requirements">Table and chair requirements<a class="headerlink" href="#table-and-chair-requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The staging area requires 9 'small' (4ft x 2ft approx) or 6 'large' (6/8ft x 2ft approx) trestle tables.</li>
+<li>The shepherding area requires 2 'small' or 1 'large' trestle tables and 4 chairs.</li>
+<li>The score entry area requires 4 'small' or 3 'large' trestle tables and 6 chairs.</li>
+</ul>
+<p>We need to borrow these off of Newbury (along with the tables and chairs for the pits - see Pit Manager docs).</p>
+<h3 id="crowd-barrier-requirements">Crowd barrier requirements<a class="headerlink" href="#crowd-barrier-requirements" title="Permanent link">&para;</a></h3>
+<p>To surround the two arenas and the staging are we require 50x 2m crowd barriers. Newbury have these already and we can borrow them.</p>
+<h3 id="staging-area-requirements">Staging area requirements<a class="headerlink" href="#staging-area-requirements" title="Permanent link">&para;</a></h3>
+<p>As well as the tables noted in the table and chair requirements section, the staging area requires four 48mm x 25m rolls of fluorescent gaffer tape (one each of yellow, green, orange and pink) and one 50mm x 50m roll of white gaffer. It also requires some printed 'Arena A' and 'Arena B' signs to stick on the desks to clearly identify the staging bays for each arena.</p>
+<h3 id="tape-order">Tape order<a class="headerlink" href="#tape-order" title="Permanent link">&para;</a></h3>
+<p>Order the following:</p>
+<ul>
+<li>Red cloth gaffer tape - 3x 48mm x 25m rolls</li>
+<li>Yellow cloth gaffer tape - 3x 48mm x 25m rolls</li>
+<li>White cloth gaffer tape - 1x 48mm x 25m rolls</li>
+<li>Brown cloth gaffer tape - 1x 48mm x 25m rolls</li>
+<li>Grey cloth gaffer tape - 2x 48mm x 25m rolls</li>
+<li>Red cloth gaffer tape - 1x 24mm x 25m rolls</li>
+<li>Yellow cloth gaffer tape - 1x 24mm x 25m rolls</li>
+<li>White cloth gaffer tape - 1x 24mm x 25m rolls</li>
+<li>NEC approved low-tac double sided-tape - 3x 38mm x 50m rolls</li>
+<li>Insulating tape (any colour)</li>
+<li>White gaffer tape - 2x 50mm x 50m roll</li>
+<li>Black gaffer tape - 4x 50mm x 50m roll</li>
+<li>Fluorescent gaffer tape - 8x 48mm x 25m rolls (two each of yellow, green, orange and pink)</li>
+</ul>
+<p>(We already have ~6 rolls of double-sided finger lift tape, ~4 rolls of NEC double-sided tape, ~1 roll of each colour of fluorescent tape and ~1 roll of white gaffer tape.)</p>
+<h2 id="set-up-day-plans">Set-up Day Plans<a class="headerlink" href="#set-up-day-plans" title="Permanent link">&para;</a></h2>
+<p>There are five top-level tasks that can (and should) be carried out in parallel:</p>
+<ul>
+<li>Arena construction <strong>[4 people]</strong></li>
+<li>Staging/shepherding area construction <strong>[1 person]</strong></li>
+<li>Display assembly <strong>[2 people]</strong></li>
+<li>Scoring/ops area construction <strong>[1 person]</strong></li>
+<li>Arenanet installation <strong>[1 person]</strong></li>
+<li>Game prop construction <strong>[4 people]</strong></li>
+</ul>
+<h3 id="arena-construction">Arena Construction<a class="headerlink" href="#arena-construction" title="Permanent link">&para;</a></h3>
+<p>Each arena is an 8x8m carpeted area surrounded by 300mm high MDF walls. For further details about the design see the <a href="https://www.studentrobotics.org/rules">rules</a>. The following is a rough plan for arena construction.</p>
+<p><strong>Four people are required for arena construction</strong></p>
+<h4 id="materials">Materials<a class="headerlink" href="#materials" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Arena floor plan (arena-position.pdf from comp-floorplans.git)</li>
+<li>Arena layout (arena-layout.pdf from comp-floorplans.git)</li>
+<li>Budget cord carpet - 5x 9x4m roll</li>
+<li>NEC approved low-tac double sided-tape - 5x 38mm x 50m rolls</li>
+<li>Insulating tape (for marking out - so the colour is unimportant)</li>
+<li>Arena walls</li>
+<li>3.5x25mm wood screws</li>
+<li>50x 5-litre HDPE jerrycans</li>
+<li>A water supply</li>
+<li>Double-sided finger-lift tape - 1x 12mm x 50m roll</li>
+<li>White gaffer tape - 2x 50mm x 50m roll</li>
+<li>Black gaffer tape - 2x 50mm x 50m roll</li>
+<li>Arena markers 'A primary' and 'B primary' packs</li>
+<li>Arena label 'A' and 'B' packs</li>
+<li>Fluorescent gaffer tape - 1x 48mm x 25m rolls one each of yellow, green, orange and pink</li>
+<li>Red cloth gaffer tape - 1x 24mm x 25m rolls</li>
+<li>Yellow cloth gaffer tape - 1x 24mm x 25m rolls</li>
+<li>White cloth gaffer tape - 1x 24mm x 25m rolls</li>
+<li>50x 2m metal crowd-control barriers</li>
+<li>8x Fully assembled corner displays (see Display Assembly section)</li>
+</ul>
+<h4 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h4>
+<ul>
+<li>1x scissors</li>
+<li>2x stanley knife</li>
+<li>1x 30m tape measure</li>
+<li>1x 2m folding ruler</li>
+<li>1x 30m chalk line</li>
+<li>1x PZ2 screwdriver</li>
+<li>2x battery drills w. PZ2 screwdriver bits</li>
+</ul>
+<h4 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Mark out where the carpet will be laid on the venue floor with insulation tape and chalk line. <strong>[15 mins]</strong></li>
+<li>Lay the carpet by applying strips of NEC double sided tape to the floor and roll the carpet out onto it in sections. (Lay one strip of tape over the joint. Cut the backing tape ~2m from each end. Remove the middle section of backing tape and lay carpet. Once both sides of the joint are laid, remove the end section backing tape.) <strong>[1.5 hour]</strong></li>
+<li>Tape down the boundary of the carpet with black gaffer tape. <strong>[15 mins]</strong></li>
+<li>The following steps can be carried out in parallel. Two people work on each step.<ol>
+<li>Mark out where the arena walls will be laid on the carpet with insulating tape and chalk line. <strong>[15 mins]</strong></li>
+<li>Fill the jerrycans with water. <strong>[15 mins]</strong></li>
+</ol>
+</li>
+<li>Place the arena walls onto the carpet. The wall sections are number and must be placed in the correct order so that the screw holes line up. <strong>[30 mins]</strong></li>
+<li>Screw the wall sections together. <strong>[30 mins]</strong></li>
+<li>Place the jerrycans on the wall feet. <strong>[15 mins]</strong></li>
+<li>Get RTSS to begin installing the power cabling. <strong>occurs 3h 30m from the start of the procedure</strong></li>
+<li>Get Arenanet installer to begin the network cabling.</li>
+<li>Mark out where the arena wall markers are to be stuck with insulating tape on the carpet next to the wall face. <strong>[15 mins]</strong></li>
+<li>Apply the markers to the walls using a cross of double-sided tape and surround the edges with white gaffer tape. Take care to ensure the ordering and arena assignment (A/B) is correct. <strong>[30 mins]</strong></li>
+<li>Mark out the corners with the fluorescent gaffer tape and write the corner number on the carpet with the tape. <strong>[30 mins]</strong></li>
+<li>The following steps can be carried out in parallel. Two people work on each step.<ol>
+<li>Apply spikes (small bits of tape on the floor) for the game props according to the arena floor plan, to allow them to be quickly repositioned at the end of a match, and write the token letters on the carpet with the tape. <strong>[30 mins]</strong></li>
+<li>Apply the A/B markers to the outside of the arena walls. <strong>[15 mins]</strong></li>
+</ol>
+</li>
+<li>Wait for RTSS to complete power cabling.</li>
+<li>Wait for Arenanet installer to complete network cabling.</li>
+<li>Install assembled displays. <strong>[15 mins]</strong>.</li>
+<li>Place the crowd-control barrier around the arenas. <strong>[15 mins]</strong></li>
+</ol>
+<p>Total construction time: <strong>6 hours</strong></p>
+<h3 id="stagingshepherding-area-construction">Staging/Shepherding Area Construction<a class="headerlink" href="#stagingshepherding-area-construction" title="Permanent link">&para;</a></h3>
+<p><strong>One person is required for staging/shepherding area construction</strong></p>
+<h4 id="materials_1">Materials<a class="headerlink" href="#materials_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Staging/shepherding area floor plan (arena-position.pdf from comp-floorplans.git)</li>
+<li>~11x small or ~7x large trestle tables</li>
+<li>4x chairs</li>
+<li>Fluorescent gaffer tape - 1x 48mm x 25m rolls one each of yellow, green, orange and pink</li>
+<li>1x roll of 50mm x 50m white gaffer tape</li>
+<li>Printed 'arena A' and 'arena B' signs</li>
+<li>2x fully assembled 'staging/shepherding' displays (see Display Assembly section)</li>
+</ul>
+<h4 id="tools_1">Tools<a class="headerlink" href="#tools_1" title="Permanent link">&para;</a></h4>
+<p>None required</p>
+<h4 id="procedure_1">Procedure<a class="headerlink" href="#procedure_1" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Wait until RTSS have installed the power to the staging/shepherding area</li>
+<li>Wait until Arenanet installer has installed the network cabling/switch.</li>
+<li>Place the tables and chairs according to the floor plan. <strong>[10 mins]</strong></li>
+<li>Place the two assembled displays onto the shepherding desk and plug into power and ethernet. <strong>[5 mins]</strong></li>
+<li>Using the coloured gaffer tape, mark out the staging bays. <strong>[20 mins]</strong></li>
+<li>Using the white gaffer tape, mark out one-way arrows on the floor. <strong>[20 mins]</strong></li>
+<li>Stick the signs onto the staging tables. <strong>[5 mins]</strong></li>
+</ol>
+<p>Total construction time: <strong>1 hour.</strong></p>
+<h3 id="scoringops-area-construction">Scoring/ops Area Construction<a class="headerlink" href="#scoringops-area-construction" title="Permanent link">&para;</a></h3>
+<p><strong>One person is required for Scoring/ops Area Construction</strong></p>
+<h4 id="materials_2">Materials<a class="headerlink" href="#materials_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Scoring/ops area floor plan (arena-position.pdf from comp-floorplans.git)</li>
+<li>~4x small or ~3x large trestle tables</li>
+<li>6x chairs</li>
+<li>3x 4-way extension leads</li>
+<li>1x score entry laptop</li>
+</ul>
+<h4 id="tools_2">Tools<a class="headerlink" href="#tools_2" title="Permanent link">&para;</a></h4>
+<p>None required.</p>
+<h4 id="procedure_2">Procedure<a class="headerlink" href="#procedure_2" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Wait until RTSS have installed the power to the score entry area.</li>
+<li>Wait until the Arenanet installer has installed the network cabling/switch.</li>
+<li>Place the tables and chairs roughly in the right area (the people using them can move them around). <strong>[5 mins]</strong></li>
+<li>Plug the 4-way extension leads into the power. <strong>[5 mins]</strong></li>
+<li>Plug the score entry laptop into the power and ethernet switch. <strong>[5 mins]</strong></li>
+</ol>
+<p>Total construction time: <strong>15 mins.</strong></p>
+<h3 id="arenanet-installation">Arenanet Installation<a class="headerlink" href="#arenanet-installation" title="Permanent link">&para;</a></h3>
+<p><strong>One person is required for Arenanet Installation</strong></p>
+<h4 id="materials_3">Materials<a class="headerlink" href="#materials_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Arenanet floor plan (arenanet.pdf from comp-floorplans.git)</li>
+<li>7x 8-port ethernet switches + PSUs</li>
+<li>1x competition software router + PSU</li>
+<li>14x 2m ethernet cables</li>
+<li>4x 5m ethernet cables</li>
+<li>11x 10m ethernet cables</li>
+<li>1x 15m ethernet cable</li>
+<li>2x 20m ethernet cables</li>
+<li>2x 30m ethernet cables</li>
+<li>1x carboard box to place router in</li>
+<li>Some gaffer tape</li>
+</ul>
+<h4 id="tools_3">Tools<a class="headerlink" href="#tools_3" title="Permanent link">&para;</a></h4>
+<p>None required.</p>
+<h4 id="procedure_3">Procedure<a class="headerlink" href="#procedure_3" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Run all long-distance network cables according to the floorplan <strong>[30 mins]</strong>:<ol>
+<li>20m from third-party network point to Sound/LX desk, if it is provided next to the venue network point.</li>
+<li>20m from Sound/LX desk to Scoring/Ops desk.</li>
+<li>30m from Scoring/Ops desk to Shepherding desk.</li>
+<li>30m from Shepherding desk to downstairs outside display location.</li>
+<li>10m from Scoring/Ops desk to closest Arena B corner.</li>
+</ol>
+</li>
+<li>Place switches according to the floorplan (except for the four arena switches), plug them into power if available and connect the long-distance network cables. <strong>[30 mins]</strong></li>
+<li>Place the router somewhere in the Sound/LX desk area, plug the 'WAN' port into the cable from the third-party network point, the 'LAN' port into the cable to the Sound/LX switch with a 2m cable and into the power. <strong>[5 mins]</strong></li>
+<li>Place the router inside the cardboard box and tape it shut. This is to prevent it from damage. <strong>[5 mins]</strong></li>
+<li>Install all of the 2m and 5m cables. <strong>[20 mins]</strong></li>
+<li>When requested by the arena construction team, install the four arena switches and all of the arena network cabling. <strong>[1 hour]</strong></li>
+<li>Plug any unpowered switches into power.</li>
+</ol>
+<p>Total construction time: <strong>2 hours 30 mins.</strong></p>
+<h3 id="display-assembly">Display Assembly<a class="headerlink" href="#display-assembly" title="Permanent link">&para;</a></h3>
+<p><strong>Two people are required for screen assembly</strong></p>
+<h4 id="materials_4">Materials<a class="headerlink" href="#materials_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Outside display floor plan (outside-display-floor-0.pdf and outside-display-floor-2.pdf from comp-floorplans.git)</li>
+<li>10x unicol stands</li>
+<li>10x 24" screens with HDMI inputs (we own 6)</li>
+<li>2x 32" screens with HDMI inputs</li>
+<li>8x vesa pole mounts</li>
+<li>2x unicol mounts for 32" screens</li>
+<li>12x 4-way extension leads (UK plug and UK sockets)</li>
+<li>12x raspberry pis</li>
+<li>12x raspberry pi PSUs</li>
+<li>12x HDMI leads</li>
+<li>A piece of cardboard to make sled for raspberry pis</li>
+<li>1x roll of 50mm x 50m black gaffer tape</li>
+<li>Roll of address labels</li>
+<li>Pen</li>
+</ul>
+<h4 id="tools_4">Tools<a class="headerlink" href="#tools_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>1x PZ2 screwdriver</li>
+<li>Set of metric hex keys</li>
+<li>Scissors or knife</li>
+</ul>
+<h4 id="procedure_4">Procedure<a class="headerlink" href="#procedure_4" title="Permanent link">&para;</a></h4>
+<ol>
+<li>It is very important that the correct raspberry pis are attached to the correct type of screen. The name of each raspberry pi will be indicated, but may not be marked on the raspberry pi itself. If it is not marked on the raspberry pi itself, use some address labels to mark them appropriately.</li>
+<li>Assemble 8 of the unicol stands with a single pole and 2 with both poles. <strong>[30 mins]</strong></li>
+<li>Attach the pole mounts to the back of 8 of the 24" screens. <strong>[30 mins]</strong></li>
+<li>Attach the 8 24" screens to the 8 single-pole unicol stands. <strong>[30 mins]</strong></li>
+<li>Attach the 2 unicol mounts for the 32" screens to the 2 dual-pole unicol stands. <strong>[10 mins]</strong></li>
+<li>Attach the 2 32" screens to the 2 dual-pole unicol stands. <strong>[10 mins]</strong></li>
+<li>Attach the desk stands to the remaining 2 24" screens. <strong>[10 mins]</strong></li>
+<li>On the back of all 12 screens attach a 4-way extension lead with gaffer tape. <strong>[30 mins]</strong></li>
+<li>On the back of all 12 screens attach a raspberry pi with a piece of cardboard, as an insulating sled, and with gaffer tape. Observe the correct mapping and do not cover the label applied in step 1: <strong>[30 mins]</strong><ul>
+<li>Raspberry pis marked with 'arena-A' or 'arena-B' go onto the 8 24" screens on single-pole unicol stands</li>
+<li>Raspberry pis marked with 'outside-0' or 'outside-2' go onto the 2 32" screens</li>
+<li>Raspberry pis marked with 'shepherding' or 'staging' go onto the 2 24" desk mount screens</li>
+</ul>
+</li>
+<li>Plug all of the raspberry pis into their corresponding display with HDMI leads. <strong>[10 mins]</strong></li>
+<li>Plug all of the raspberry pis into the 4-way extension lead with their PSUs. <strong>[10 mins]</strong></li>
+<li>Plug each screen into its 4-way extension lead with the appropriate lead (supplied with the screen). <strong>[10 mins]</strong></li>
+<li>Work with Competition Software Coordinator to test that each screen functions as expected. Note that the screen must be powered up (and the HDMI cable connected to the raspberry pi) before powering up the raspberry pi, otherwise it may not detect the screen. <strong>[30 mins]</strong></li>
+<li>Place and plug in (both power and network) the two 'outside' displays (the ones not in the arena or staging area). Refer to the floor plans for the positions. <strong>[15 mins]</strong></li>
+</ol>
+<p>Total assembly time: <strong>4 hours 15 mins.</strong></p>
+<h3 id="sr2017-game-easy-as-abc-prop-construction">SR2017 Game (Easy as ABC) Prop Construction<a class="headerlink" href="#sr2017-game-easy-as-abc-prop-construction" title="Permanent link">&para;</a></h3>
+<p>The SR2016 game requires tokens to be constructed. These tokens consist of cardboard box cubes with 250mm side-length covered with libkoki markers. To assist human spectators, coloured gaffer tape is applied to the faces of the cube.</p>
+<p><strong>Four people are required for token construction</strong></p>
+<h4 id="materials_5">Materials<a class="headerlink" href="#materials_5" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Cardboard boxes - 36x 9"x9"x9" double-wall boxes (external dimensions approx. 245mm x 254mm x 254mm)</li>
+<li>Token libkoki markers</li>
+<li>Double-sided finger-lift tape - 4x 12mm x 50m rolls</li>
+<li>Red cloth gaffer tape - 3x 48mm x 25m rolls</li>
+<li>Yellow cloth gaffer tape - 3x 48mm x 25m rolls</li>
+<li>White cloth gaffer tape - 1x 48mm x 25m rolls</li>
+<li>Brown cloth gaffer tape - 1x 48mm x 25m rolls</li>
+<li>Grey cloth gaffer tape - 2x 48mm x 25m rolls</li>
+</ul>
+<h4 id="tools_5">Tools<a class="headerlink" href="#tools_5" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Scissors</li>
+</ul>
+<h4 id="procedure_5">Procedure<a class="headerlink" href="#procedure_5" title="Permanent link">&para;</a></h4>
+<p>There are two sets of tokens to be built. Those for arena A and those for arena B. To make things simple the tokens will be constructed in two phases: arena A tokens followed by arena B tokens. Each token has six of the same marker number and the orientation of the markers is irrelevant.</p>
+<ol>
+<li>Fold the flat-packed box into a cube. <strong>[30 sec]</strong></li>
+<li>Use the grey tape to seal the top and bottom flaps along the seam. <strong>[30 sec]</strong></li>
+<li>Obtain a complete set of markers (all marker numbers the same). <strong>[30 sec]</strong></li>
+<li>Apply a cross of double-sided tape to a side of the box.</li>
+<li>Stick a marker onto the box, taking care to align it in the centre of the face.</li>
+<li>Repeat the above two steps until all of the markers have been stuck on the box. <strong>[6 mins]</strong></li>
+<li>Get a second person to verify that all of the markers on the box have the same number (as noted in the small grey text in the bottom left of each marker). <strong>[1 min]</strong></li>
+<li>Use the coloured tape (as specified below) to cover all 12 edges of the box and seal the marker edges. Take care to ensure that it is outside of the grey square surrounding each marker. <strong>[6 mins]</strong><ul>
+<li>Use red tape for 'A' tokens</li>
+<li>Use yellow tape for 'B' tokens</li>
+<li>Use white/brown tape for 'C' tokens (use white on some edges and brown on others - make it look coconut-y)</li>
+</ul>
+</li>
+<li>Verify the token with the verification program again. <strong>[1 min]</strong></li>
+<li>Repeat.</li>
+</ol>
+<p>Setup time: <strong>30 mins</strong>. Construction time per token: <strong>~16mins</strong>. Total construction time (with four people): <strong>~3 hours</strong>.</p>
+<h2 id="final-day-arena-changeover">Final Day Arena Changeover<a class="headerlink" href="#final-day-arena-changeover" title="Permanent link">&para;</a></h2>
+<p>On the final day of the competition we change to a single arena (arena A) for quarter finals, semi finals and final. There is very little time to perform this changeover between the final heat and the first quarter final.</p>
+<p><strong>Six people are required for arena changeover (2 guards, 4 workers)</strong></p>
+<h3 id="tools_6">Tools<a class="headerlink" href="#tools_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>2x battery drills w. PZ2 screwdriver bits</li>
+</ul>
+<h3 id="procedure_6">Procedure<a class="headerlink" href="#procedure_6" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Instruct the two workers to stop anyone other than the four workers from entering the changeover area.</li>
+<li>The following two tasks happen in parallel (two people per task):<ol>
+<li>Remove the screws joining the arena wall sections along the side of arena B next to arena A and 3 sections down each side. Take care to only remove the screws on one side of the joint (ask Rich which side). <strong>[2 mins]</strong></li>
+<li>Remove the jerry cans from the feet of the walls being unscrewed and unplug the power and network cables from the two displays in the corners of arena B next to arena A. <strong>[2 mins]</strong></li>
+</ol>
+</li>
+<li>Move all of the unscrewed wall sections to the other side of arena B. <strong>[1 min]</strong></li>
+<li>The following two tasks happen in parallel:<ol>
+<li>Pull back the unused network and power cabling to the other side of arena B, taking care to leave the network and power cabling running to arena A. <strong>[1 min]</strong></li>
+<li>Wheel the unplugged corner displays to the other side of arena B. <strong>[1 min]</strong></li>
+</ol>
+</li>
+<li>Reposition the crowd barrier along the exposed edge of arena A and partially along the exposed staging area. <strong>[2 min]</strong>.</li>
+</ol>
+<p>Total procedure time: <strong>6 mins</strong></p>
+                
+  
+    <h2>Attribution</h2>
+    <p>
+      This page is based on work done by Fiona Gillan, Richard Barlow, Rob Gilton and Thomas Leese,
+      originally published at
+      <a href="https://bitbucket.org/richardbarlow/sr-arena-manager/wiki/SR2017">https://bitbucket.org/richardbarlow/sr-arena-manager/wiki/SR2017</a>,
+      which was under the Creative Commons Attribution-ShareAlike 4.0
+      International License. To view a copy of this license, visit
+      <a href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</a>
+      or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+    </p>
+    
+    
+  
+  
+  
+                  
+                
+
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../sr2017-feedback/" title="SR2017 Arena Documentation Feedback" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                SR2017 Arena Documentation Feedback
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../event/" title="Competition Event Documentation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Competition Event Documentation
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; Student Robotics contributors
+<br>
+This work is licensed under a
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+  Creative Commons Attribution-ShareAlike 4.0 International License
+</a>.
+
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://studentrobotics.org" class="md-footer-social__link fa fa-globe"></a>
+    
+      <a href="https://github.com/srobo" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/studentrobotics" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.b41f3d20.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
